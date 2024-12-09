@@ -15,4 +15,5 @@ public class test : MonoBehaviour
     {
         
     }
+    // 안녕하세요
 }
