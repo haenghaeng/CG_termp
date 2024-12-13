@@ -12,14 +12,18 @@ public class Shoot : MonoBehaviour
     [SerializeField] private GameObject bulletMarkPrefab;
 
     [Header("Variables")]
-    [SerializeField] private float speed = 10;
     [SerializeField] private float cycle = 0.2f; // 연사속도 = 발사 후 다시 발사할 때까지 걸리는 시간(단위 : 초)
+
     private WaitForSeconds cycleWFS;
     private bool isKeyDown = false;
+    private LayerMask Enemy;
+    private LayerMask Wall;
 
     private void Awake()
     {
         cycleWFS = new WaitForSeconds(cycle);
+        Enemy = LayerMask.GetMask("Enemy");
+        Wall = LayerMask.GetMask("Wall");
     }
 
     private void Update()
@@ -40,7 +44,7 @@ public class Shoot : MonoBehaviour
 
     /// <summary>
     /// cycleWFS 주기마다 플레이어의 중심에서 플레이어가가 바라보는 방향으로 Ray를 발사합니다.</br>
-    /// 가장 먼저 부딪힌 지점에 bulletMark를 남깁니다.
+    /// 가장 먼저 부딪힌 Wall에 bulletMark를 남깁니다.
     /// </summary>
     /// <returns></returns>
     private IEnumerator Shooting()
@@ -53,11 +57,18 @@ public class Shoot : MonoBehaviour
 
             RaycastHit raycastHit;
             bool isHit = Physics.Raycast(ray, out raycastHit);
-            
 
-            if (isHit)
+
+            // 벽에 맞았을 때
+            if (isHit && (1 << raycastHit.collider.gameObject.layer) == Wall)
             {
                 GameObject bulletMark = Instantiate(bulletMarkPrefab, raycastHit.point, bulletMarkPrefab.transform.rotation);
+            }
+
+            // 적에게 맞았을 때
+            else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Enemy)
+            {
+                // Do something
             }
 
             yield return cycleWFS;
