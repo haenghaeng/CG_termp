@@ -13,6 +13,7 @@ public class Shoot : MonoBehaviour
 
     [Header("Variables")]
     [SerializeField] private float cycle = 0.2f; // 연사속도 = 발사 후 다시 발사할 때까지 걸리는 시간(단위 : 초)
+    [SerializeField] private int damage = 1; // 총의 공격력
 
     private WaitForSeconds cycleWFS;
     private bool isKeyDown = false;
@@ -68,7 +69,10 @@ public class Shoot : MonoBehaviour
             // 적에게 맞았을 때
             else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Enemy)
             {
-                // Do something
+                // 적에게 damage만큼의 피해를 줌
+                EnemyHealth enemyHealth;
+                raycastHit.collider.TryGetComponent(out enemyHealth);
+                enemyHealth.HealthDown(damage);
             }
 
             yield return cycleWFS;
