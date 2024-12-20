@@ -8,12 +8,20 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     [Header("Components")]
+
+    [Tooltip("플레이어 오브젝트와 같이 붙어있는 카메라의 transform")]
     [SerializeField] private Transform playerCamera;
-    [SerializeField] private GameObject bulletMarkPrefab;
+
+    [Tooltip("총알 자국 Pool")]
+    [SerializeField] private MyObjectPool bulletMarkPool;
 
     [Header("Variables")]
-    [SerializeField] private float cycle = 0.2f; // 연사속도 = 발사 후 다시 발사할 때까지 걸리는 시간(단위 : 초)
-    [SerializeField] private int damage = 1; // 총의 공격력
+
+    [Tooltip("연사속도 = 발사 후 다시 발사할 때까지 걸리는 시간(기본값 = 0.2초)")]
+    [SerializeField] private float cycle = 0.2f;
+
+    [Tooltip("총의 공격력(기본값 = 1)")]
+    [SerializeField] private int damage = 1;
 
     private WaitForSeconds cycleWFS;
     private bool isKeyDown = false;
@@ -63,7 +71,8 @@ public class Shoot : MonoBehaviour
             // 벽에 맞았을 때
             if (isHit && (1 << raycastHit.collider.gameObject.layer) == Wall)
             {
-                GameObject bulletMark = Instantiate(bulletMarkPrefab, raycastHit.point, bulletMarkPrefab.transform.rotation);
+                GameObject bulletMark = bulletMarkPool.GetFromPool();
+                bulletMark.transform.position = raycastHit.point;
             }
 
             // 적에게 맞았을 때

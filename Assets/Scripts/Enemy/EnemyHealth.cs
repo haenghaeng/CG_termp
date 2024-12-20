@@ -11,6 +11,8 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int maxHealth = 10;
     [SerializeField] private int currentHealth;
 
+    private PoolableObject poolableObject;
+
     private int CurrentHealth
     {
         set
@@ -18,8 +20,8 @@ public class EnemyHealth : MonoBehaviour
             currentHealth = value;
             if(currentHealth <= 0)
             {
-                // 현재 체력이 0이하가 되면 게임 오브젝트 파괴
-                Destroy(gameObject);
+                // 현재 체력이 0이하가 되면 Pool로 돌아감
+                poolableObject.ObjectPool.BackToPool(gameObject);
             }
         }
         get
@@ -32,6 +34,12 @@ public class EnemyHealth : MonoBehaviour
     private void Awake()
     {
         currentHealth = maxHealth;
+        poolableObject = GetComponent<PoolableObject>();
+    }
+
+    private void OnEnable()
+    {
+        CurrentHealth = maxHealth;
     }
 
 
