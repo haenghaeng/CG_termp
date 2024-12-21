@@ -11,8 +11,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float spawnTimer = 5f;
 
     [Header("Essential")]
-    [SerializeField] private GameObject Enemy;
-    [SerializeField] private MyObjectPool EnemyPool;
+    [SerializeField] private Transform playerTransform;
+    [SerializeField] private MyObjectPool enemyPool;
     
     private WaitForSeconds wfs;
 
@@ -33,7 +33,8 @@ public class EnemySpawner : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        GameObject enemy = EnemyPool.GetFromPool();
+        GameObject enemy = enemyPool.GetFromPool();
+        enemy.GetComponent<EnemyAgent>().setPlayer(playerTransform);
         enemy.transform.position = transform.position;
     }
 }
