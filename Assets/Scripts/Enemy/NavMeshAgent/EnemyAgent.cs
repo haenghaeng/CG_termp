@@ -10,7 +10,7 @@ using UnityEngine.AI;
 public class EnemyAgent : MonoBehaviour
 {
     private NavMeshAgent navMeshAgent;
-    [SerializeField] private GameObject player;
+    [SerializeField] private Transform _playerTransform = null;
 
     private void Awake()
     {
@@ -19,6 +19,12 @@ public class EnemyAgent : MonoBehaviour
 
     private void Update()
     {
-        navMeshAgent.SetDestination(player.transform.position);
+        navMeshAgent.SetDestination(_playerTransform.position);
+    }
+
+    public void setPlayer(Transform playerTransform)
+    {
+        if(_playerTransform == null)
+            _playerTransform = playerTransform;
     }
 }
