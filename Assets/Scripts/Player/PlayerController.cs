@@ -14,8 +14,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 3f;
     [SerializeField] private float jumpScale = 5f;
 
-    private float mouseX = 0;
-    private float mouseY = 0;
+    private float mouseX;
+    private float mouseY;
+    private Vector2 _recoil = Vector2.zero;
+
     private float keyboardHorizontal = 0;
     private float keyboardVertical = 0;
 
@@ -28,6 +30,8 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        mouseX = playerCamera.eulerAngles.x;
+        mouseY = playerCamera.eulerAngles.y;
     }
 
     private void Update()
@@ -49,6 +53,11 @@ public class PlayerController : MonoBehaviour
     {
         mouseX += Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         mouseY -= Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+
+        mouseX += _recoil.x;
+        mouseY += _recoil.y;
+        _recoil = Vector2.Lerp(_recoil, Vector2.zero, 0.3f);
+
         mouseY = Mathf.Clamp(mouseY, -90f, 90f);
 
         playerCamera.localRotation = Quaternion.Euler(mouseY, mouseX, 0);
@@ -80,5 +89,10 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpScale, rb.velocity.z);
         }        
+    }
+
+    public void SetRecoil(Vector2 recoil)
+    {
+        _recoil = recoil;
     }
 }
