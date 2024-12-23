@@ -72,7 +72,8 @@ public class Shoot : MonoBehaviour
             if (isHit && (1 << raycastHit.collider.gameObject.layer) == Wall)
             {
                 GameObject bulletMark = bulletMarkPool.GetFromPool();
-                bulletMark.transform.position = raycastHit.point;
+                bulletMark.transform.position = raycastHit.point + (raycastHit.normal * 0.01f);
+                bulletMark.transform.rotation = Quaternion.FromToRotation(Vector3.up, raycastHit.normal);
             }
 
             // 적에게 맞았을 때
