@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 /// <summary>
@@ -28,6 +29,15 @@ public class Shoot : MonoBehaviour
     private LayerMask Enemy;
     private LayerMask Wall;
 
+    private bool reloading = false;
+    [SerializeField] private float reloadingDelay = 3.0f;
+    [SerializeField] private TextMeshProUGUI reloadText;
+
+    private int bullets = 40;
+    [SerializeField] private int maxBullets = 40;
+    [SerializeField] private TextMeshProUGUI bulletBox;
+
+
     private void Awake()
     {
         cycleWFS = new WaitForSeconds(cycle);
@@ -49,6 +59,13 @@ public class Shoot : MonoBehaviour
         {
             isKeyDown = false;
         }
+
+        if (Input.GetKeyDown(KeyCode.R) && bullets < maxBullets )
+        {
+            StartCoroutine(Reload());
+        }
+
+        ShowBulletBox();
     }
 
     /// <summary>
@@ -58,11 +75,13 @@ public class Shoot : MonoBehaviour
     /// <returns></returns>
     private IEnumerator Shooting()
     {
-        while(isKeyDown)
+        while(isKeyDown && bullets > 0 && !reloading)
         {
             Ray ray = new Ray();
             ray.origin = transform.position;
             ray.direction = playerCamera.forward;
+
+            bullets--;
 
             RaycastHit raycastHit;
             bool isHit = Physics.Raycast(ray, out raycastHit);
@@ -87,7 +106,26 @@ public class Shoot : MonoBehaviour
             yield return cycleWFS;
         }
 
+        if (bullets <= 0)
+        {
+            StartCoroutine (Reload());
+        }
+
         yield return null;
     }
 
+    private IEnumerator Reload()
+    {
+        reloading = true;
+        reloadText.text = "Reloading";
+        yield return new WaitForSeconds(reloadingDelay);
+        bullets = maxBullets;
+        reloadText.text = "";
+        reloading = false;
+    }
+
+    private void ShowBulletBox()
+    {
+        bulletBox.text = bullets.ToString() + " / " + maxBullets.ToString();
+    }
 }
