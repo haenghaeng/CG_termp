@@ -38,7 +38,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private float reloadingDelay = 3.0f;
     [SerializeField] private TextMeshProUGUI reloadText;
 
-    private int bullets = 40;
+    private int bullets;
     [SerializeField] private int maxBullets = 40;
     [SerializeField] private TextMeshProUGUI bulletBox;
 
@@ -50,6 +50,7 @@ public class Shoot : MonoBehaviour
         cycleWFS = new WaitForSeconds(cycle);
         Enemy = LayerMask.GetMask("Enemy");
         Wall = LayerMask.GetMask("Wall");
+        bullets = maxBullets;
     }
 
     private void Update()
@@ -129,12 +130,15 @@ public class Shoot : MonoBehaviour
 
     private IEnumerator Reload()
     {
-        reloading = true;
-        reloadText.text = "Reloading";
-        yield return new WaitForSeconds(reloadingDelay);
-        bullets = maxBullets;
-        reloadText.text = "";
-        reloading = false;
+        if (!reloading)
+        {
+            reloading = true;
+            reloadText.text = "Reloading";
+            yield return new WaitForSeconds(reloadingDelay);
+            bullets = maxBullets;
+            reloadText.text = "";
+            reloading = false;
+        }
     }
 
     private void ShowBulletBox()
