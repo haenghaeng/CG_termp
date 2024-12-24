@@ -14268,7 +14268,7 @@ Transform:
   m_GameObject: {fileID: 1428751009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.33, y: 7.45, z: -28.74}
+  m_LocalPosition: {x: -9.33, y: 7.45, z: -27.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14572,7 +14572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f2cc92861946e4c9dc7543d09ef6db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnTimer: 1
+  spawnTimer: 3
   playerTransform: {fileID: 1428751017}
   enemyPool: {fileID: 255357772}
 --- !u!4 &1470214956
@@ -14584,7 +14584,7 @@ Transform:
   m_GameObject: {fileID: 1470214954}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.91, y: 1.55, z: -28.51}
+  m_LocalPosition: {x: 15.03, y: 1.55, z: -26.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
