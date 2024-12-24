@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1843321349972007787}
   - component: {fileID: 6190212288816541023}
   - component: {fileID: 4607632864002001462}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: LP_Stair_Steps
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,9 +118,9 @@ GameObject:
   - component: {fileID: 4118464426978377126}
   - component: {fileID: 9132688623861301805}
   - component: {fileID: 1492634529499274641}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: LP_Stairs_snaps
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,9 +224,9 @@ GameObject:
   - component: {fileID: 2011022379688568748}
   - component: {fileID: 9180966909023947461}
   - component: {fileID: 8030912691935189497}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: LP_walkway_Stairs_snaps
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,9 +327,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7515332717815086903}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: Catwalk Stairs
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
