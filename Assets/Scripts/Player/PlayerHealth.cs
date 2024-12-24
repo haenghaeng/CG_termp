@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /// <summary>
 /// 플레이어 캐릭터의 체력을 관리하는 컴포넌트입니다.
@@ -12,6 +13,13 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int maxHealth;
     [Tooltip("플레이어 캐릭터의 현재 체력입니다. 0이 되면 게임오버됩니다.")]
     [SerializeField] private int _currentHealth;
+    [SerializeField] private Slider healthSlider;
+
+    private void Update()
+    {
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = _currentHealth;
+    }
 
     private int currentHealth
     {
@@ -22,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
 
         set
         {
-            if(value < 0)
+            if(value <= 0)
             {
                 _currentHealth = 0;
                 // 게임 오버. 게임 오버시 실행할 이벤트나 함수를 아래에 넣어주세요
