@@ -13,7 +13,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Transform playerCamera;
 
     [Tooltip("총알 자국 Pool")]
-    [SerializeField] private MyObjectPool bulletMarkPool;
+    [SerializeField] private MyObjectPool bulletMarkPool;    
 
     [Tooltip("금속 파편 이펙트 Pool")]
     [SerializeField] private MyObjectPool metalParticleEffectPool;
@@ -31,8 +31,12 @@ public class Shoot : MonoBehaviour
     private LayerMask Enemy;
     private LayerMask Wall;
 
+    private PlayerController playerController;
+
     private void Awake()
     {
+        playerController = GetComponent<PlayerController>();
+
         cycleWFS = new WaitForSeconds(cycle);
         Enemy = LayerMask.GetMask("Enemy");
         Wall = LayerMask.GetMask("Wall");
@@ -70,6 +74,7 @@ public class Shoot : MonoBehaviour
             RaycastHit raycastHit;
             bool isHit = Physics.Raycast(ray, out raycastHit);
 
+            playerController.SetRecoil(new Vector2(Random.Range(-0.3f,0.3f), -0.3f));
 
             // 벽에 맞았을 때
             if (isHit && (1 << raycastHit.collider.gameObject.layer) == Wall)
