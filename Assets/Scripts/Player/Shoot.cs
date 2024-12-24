@@ -27,13 +27,14 @@ public class Shoot : MonoBehaviour
     [Tooltip("총의 공격력(기본값 = 1)")]
     [SerializeField] private int damage = 1;
 
+    private PlayerController playerController;
+    private Animator animator;
+
     private WaitForSeconds cycleWFS;
     private bool isKeyDown = false;
     private bool isShooting = false;
     private LayerMask Enemy;
-    private LayerMask Wall;
-
-    private PlayerController playerController;
+    private LayerMask Wall;    
 
     private bool reloading = false;
     [SerializeField] private float reloadingDelay = 3.0f;
@@ -47,6 +48,7 @@ public class Shoot : MonoBehaviour
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
+        animator = GetComponent<Animator>();
 
         cycleWFS = new WaitForSeconds(cycle);
         Enemy = LayerMask.GetMask("Enemy");
@@ -72,7 +74,7 @@ public class Shoot : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && bullets < maxBullets )
         {
-            StartCoroutine(Reload());
+            ReloadStart();
         }
 
         ShowBulletBox();
@@ -124,7 +126,8 @@ public class Shoot : MonoBehaviour
 
         if (bullets <= 0)
         {
-            StartCoroutine (Reload());
+            ReloadStart();
+            //StartCoroutine (Reload());
         }
 
         isShooting = false;
@@ -132,17 +135,42 @@ public class Shoot : MonoBehaviour
         yield return null;
     }
 
-    private IEnumerator Reload()
+    //private IEnumerator Reload()
+    //{
+    //    if (!reloading)
+    //    {
+    //        reloading = true;
+    //        reloadText.text = "Reloading";
+
+    //        // 애니메이션 재생 시작
+
+    //        yield return new WaitForSeconds(reloadingDelay);
+
+    //        // 애니메이션 재생 종료
+
+    //        bullets = maxBullets;
+    //        reloadText.text = "";
+    //        reloading = false;
+    //    }
+    //}
+
+    private void ReloadStart()
     {
         if (!reloading)
         {
             reloading = true;
             reloadText.text = "Reloading";
-            yield return new WaitForSeconds(reloadingDelay);
-            bullets = maxBullets;
-            reloadText.text = "";
-            reloading = false;
+
+            // 애니메이션 재생 시작
+            animator.SetTrigger("Reload");
         }
+    }
+
+    public void ReloadEnd()
+    {
+        bullets = maxBullets;
+        reloadText.text = "";
+        reloading = false;
     }
 
     private void ShowBulletBox()
