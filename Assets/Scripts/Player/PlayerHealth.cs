@@ -26,6 +26,7 @@ public class PlayerHealth : MonoBehaviour
                 _currentHealth = 0;
                 // 게임 오버. 게임 오버시 실행할 이벤트나 함수를 아래에 넣어주세요
                 Debug.Log("게임 오버");
+                GameObject.Find("Timer").GetComponent<Timer>().StopTimer();
             }
             else
             {

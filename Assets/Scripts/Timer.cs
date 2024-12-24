@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -22,26 +23,21 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(TimerHandleCorutine());
+        StartTimer();
     }
 
-    private IEnumerator TimerHandleCorutine()
+    void Update()
     {
-        StartTimer();
-        while (true)
+        if (Input.GetKeyDown(KeyCode.U))
         {
-            if (Input.GetKeyDown(KeyCode.U))
+            if (state.Equals(TimerState.START))
             {
-                if (state.Equals(TimerState.START))
-                {
-                    StopTimer();
-                }
-                else if (state.Equals(TimerState.STOP))
-                {
-                    StartTimer();
-                }
+                StopTimer();
             }
-            yield return null;
+            else if (state.Equals(TimerState.STOP))
+            {
+                StartTimer();
+            }
         }
     }
 
@@ -53,21 +49,22 @@ public class Timer : MonoBehaviour
             current = DateTime.Now;
             timer += current - start;
             start = current;
-            timerText.text = "Timer : " + timer.ToString(@"mm\:ss\.ff");
+            timerText.text = timer.ToString(@"mm\:ss\.ff");
             yield return null;
         }
     }
 
-    private void StartTimer()
+    public void StartTimer()
     {
         timerCorutine = TimerCorutine();
         StartCoroutine(timerCorutine);
         state = TimerState.START;
     }
 
-    private void StopTimer()
+    public void StopTimer()
     {
         StopCoroutine(timerCorutine);
+        timer = TimeSpan.Zero;
         state = TimerState.STOP;
     }
 }
