@@ -29,6 +29,7 @@ public class Shoot : MonoBehaviour
 
     private WaitForSeconds cycleWFS;
     private bool isKeyDown = false;
+    private bool isShooting = false;
     private LayerMask Enemy;
     private LayerMask Wall;
 
@@ -57,9 +58,10 @@ public class Shoot : MonoBehaviour
     {
         // 마우스 왼쪽키를 누르면 총을 발사하기 시작합니다.
         // 키를 떼면 발사를 멈춥니다.
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && !isShooting)
         {
             isKeyDown = true;
+            isShooting = true;
             StartCoroutine(Shooting());
         }
 
@@ -124,6 +126,8 @@ public class Shoot : MonoBehaviour
         {
             StartCoroutine (Reload());
         }
+
+        isShooting = false;
 
         yield return null;
     }
