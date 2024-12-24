@@ -15,6 +15,9 @@ public class Shoot : MonoBehaviour
     [Tooltip("총알 자국 Pool")]
     [SerializeField] private MyObjectPool bulletMarkPool;
 
+    [Tooltip("금속 파편 이펙트 Pool")]
+    [SerializeField] private MyObjectPool metalParticleEffectPool;
+
     [Header("Variables")]
 
     [Tooltip("연사속도 = 발사 후 다시 발사할 때까지 걸리는 시간(기본값 = 0.2초)")]
@@ -72,7 +75,12 @@ public class Shoot : MonoBehaviour
             if (isHit && (1 << raycastHit.collider.gameObject.layer) == Wall)
             {
                 GameObject bulletMark = bulletMarkPool.GetFromPool();
-                bulletMark.transform.position = raycastHit.point;
+                bulletMark.transform.position = raycastHit.point + (raycastHit.normal * 0.01f);
+                bulletMark.transform.rotation = Quaternion.FromToRotation(Vector3.up, raycastHit.normal);
+
+                GameObject metalParticleEffect = metalParticleEffectPool.GetFromPool();
+                metalParticleEffect.transform.position = raycastHit.point + (raycastHit.normal * 0.01f);
+                metalParticleEffect.transform.rotation = Quaternion.FromToRotation(Vector3.forward, raycastHit.normal);
             }
 
             // 적에게 맞았을 때
