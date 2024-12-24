@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// 플레이어 캐릭터의 체력을 관리하는 컴포넌트입니다.
@@ -27,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
                 // 게임 오버. 게임 오버시 실행할 이벤트나 함수를 아래에 넣어주세요
                 Debug.Log("게임 오버");
                 GameObject.Find("Timer").GetComponent<Timer>().StopTimer();
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
             else
             {

@@ -34,7 +34,9 @@ public class Shoot : MonoBehaviour
     private bool isKeyDown = false;
     private bool isShooting = false;
     private LayerMask Enemy;
-    private LayerMask Wall;    
+    private LayerMask Wall;
+    private LayerMask Start;
+    private LayerMask Exit;
 
     private bool reloading = false;
     [SerializeField] private float reloadingDelay = 3.0f;
@@ -53,6 +55,8 @@ public class Shoot : MonoBehaviour
         cycleWFS = new WaitForSeconds(cycle);
         Enemy = LayerMask.GetMask("Enemy");
         Wall = LayerMask.GetMask("Wall");
+        Start = LayerMask.GetMask("Start");
+        Exit = LayerMask.GetMask("Exit");
         bullets = maxBullets;
     }
 
@@ -121,7 +125,20 @@ public class Shoot : MonoBehaviour
                 enemyHealth.HealthDown(damage);
             }
 
-            yield return cycleWFS;
+            else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Start)
+            {
+                Debug.Log("Start");
+                GameObject.Find("Menu").SetActive(false);
+                GameObject.Find("Timer").GetComponent<Timer>().StartTimer();
+            }
+
+            else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Exit)
+            {
+                Debug.Log("Exit");
+                Application.Quit();
+            }
+
+                yield return cycleWFS;
         }
 
         if (bullets <= 0)

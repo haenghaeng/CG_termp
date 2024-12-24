@@ -21,11 +21,6 @@ public class Timer : MonoBehaviour
     private IEnumerator timerCorutine;
     [SerializeField] private TextMeshProUGUI timerText;
 
-    void Start()
-    {
-        StartTimer();
-    }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.U))
