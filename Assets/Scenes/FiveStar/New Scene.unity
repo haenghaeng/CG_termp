@@ -135,6 +135,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -204,10 +214,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 421607509}
     m_Modifications:
+    - target: {fileID: 494557667817437688, guid: 6daafe0de845fb548a172a0b194a582d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 494557668931398331, guid: 6daafe0de845fb548a172a0b194a582d,
         type: 3}
       propertyPath: m_Name
       value: Pallet Variation 08
+      objectReference: {fileID: 0}
+    - target: {fileID: 494557668931398331, guid: 6daafe0de845fb548a172a0b194a582d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 494557668931398331, guid: 6daafe0de845fb548a172a0b194a582d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 494557669153079753, guid: 6daafe0de845fb548a172a0b194a582d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 494557669396295968, guid: 6daafe0de845fb548a172a0b194a582d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3496583644570392744, guid: 6daafe0de845fb548a172a0b194a582d,
         type: 3}
@@ -283,6 +318,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -357,6 +402,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -430,6 +485,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -593,6 +658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
         type: 3}
@@ -848,6 +918,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5341519867693014527, guid: 1edd5d480c0d5834e9b900315ec2da89,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341519867693014527, guid: 1edd5d480c0d5834e9b900315ec2da89,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -979,6 +1054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773941223442343427, guid: 5cd9b805f82b29345964a6dfaf9f73f2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3773941223442343427, guid: 5cd9b805f82b29345964a6dfaf9f73f2,
         type: 3}
@@ -1133,6 +1213,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Short (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4381963800603582958, guid: 7ae07a5810ac06c4abcf7577a0b29bb2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381963800603582958, guid: 7ae07a5810ac06c4abcf7577a0b29bb2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1270,6 +1360,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -1451,143 +1551,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 132335542}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &142205441
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 142205444}
-  - component: {fileID: 142205443}
-  - component: {fileID: 142205442}
-  - component: {fileID: 142205445}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &142205442
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142205441}
-  m_Enabled: 1
---- !u!20 &142205443
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142205441}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &142205444
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142205441}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &142205445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142205441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
 --- !u!1001 &157515163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1853,6 +1816,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2000,6 +1973,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -2220,6 +2203,78 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 221959848}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &230179487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230179488}
+  - component: {fileID: 230179490}
+  - component: {fileID: 230179489}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &230179488
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230179487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1144662355}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10, y: 10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &230179489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230179487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &230179490
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230179487}
+  m_CullTransparentMesh: 1
 --- !u!1001 &231003869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2232,6 +2287,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -2390,6 +2455,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -2641,6 +2716,53 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 245730460}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &255357770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 255357771}
+  - component: {fileID: 255357772}
+  m_Layer: 0
+  m_Name: EnemyPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &255357771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255357770}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 876975215}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &255357772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255357770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541585586183d894fbc6623f999e4a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectPrefab: {fileID: 4534974647712120826, guid: abc6d27482676fd40a90fad518a4482a,
+    type: 3}
+  defaultSize: 10
 --- !u!1001 &260761896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2812,6 +2934,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2960,6 +3092,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 439239393980121046, guid: ab5fdc46ceede7c4c834fdef8485ac49,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 439239393980121046, guid: ab5fdc46ceede7c4c834fdef8485ac49,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3477663187008753093, guid: ab5fdc46ceede7c4c834fdef8485ac49,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3105,10 +3247,270 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 722873571973194637, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873571993297552, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873572307368933, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873572583150015, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573151437363, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573313503200, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573344202055, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573366813070, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573393579768, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573547791766, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573578951907, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573630516815, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573814187609, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573823815129, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573845709933, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3922192954965300429, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
         type: 3}
       propertyPath: m_Name
       value: Shelf Variation 03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922192954965300429, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922192954965300429, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282423925009190, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424021654383, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424243150141, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424320263902, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424383859365, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424551850869, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424998247398, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282425144674647, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282425391772183, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214351676509434835, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214351677054700765, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214351677569564546, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899068314696, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899139889411, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899226342931, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899245825362, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899255329089, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899463836099, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899725695904, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899825803997, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899978321940, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900087890346, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900235944206, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900297101390, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900390837490, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900452321291, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900530773178, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900746563497, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900856866038, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900986067610, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827901011917649, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827901132947762, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827901145756307, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103953002949776329, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134343725142727084, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3133,6 +3535,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -3195,6 +3607,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 284142061}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &297809612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297809614}
+  - component: {fileID: 297809613}
+  m_Layer: 0
+  m_Name: MouseEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &297809613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297809612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef79f59ae82987749aad38e0ea1b337a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &297809614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297809612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &305397579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3457,6 +3913,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3605,6 +4066,102 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 337663478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &351699064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 351699068}
+  - component: {fileID: 351699067}
+  - component: {fileID: 351699066}
+  - component: {fileID: 351699065}
+  m_Layer: 0
+  m_Name: CheckGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &351699065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351699064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8a685d41083214796e78aaefc92acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGround: 0
+  grounds: []
+--- !u!65 &351699066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351699064}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.3, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &351699067
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351699064}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!4 &351699068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351699064}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1428751017}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &352968420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3984,6 +4541,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3773941223442343427, guid: 5cd9b805f82b29345964a6dfaf9f73f2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773941223442343427, guid: 5cd9b805f82b29345964a6dfaf9f73f2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3995,6 +4562,140 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 395546647}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &408776842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 408776843}
+  - component: {fileID: 408776845}
+  - component: {fileID: 408776844}
+  m_Layer: 5
+  m_Name: BulletBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &408776843
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408776842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1144662355}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &408776844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408776842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 40 / 40
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &408776845
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408776842}
+  m_CullTransparentMesh: 1
 --- !u!1001 &409265921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4219,6 +4920,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4292,6 +5003,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Long Rails (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3396001746467026945, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
         type: 3}
@@ -4417,6 +5138,181 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf Variation 04
       objectReference: {fileID: 0}
+    - target: {fileID: 3004502650624292625, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004502650624292625, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527142363754, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527151924381, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527471196723, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527567063299, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528070061974, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528109166978, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528194879236, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528535292906, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528701457979, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528808827809, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998589083004074608, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982456811147050, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982457277430747, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982457283506324, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982457643531709, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982458050630390, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982458126375351, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982458799167663, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902283229125, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902494933279, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902544576824, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902635695863, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150903892253505, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150904050515407, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932551987482, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932639084515, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932657375667, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932766607019, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527933058443303, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527933452262136, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527933907072280, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527934223366675, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9028029597386878997, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4440,6 +5336,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -4586,6 +5492,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 525221371}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &534659115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534659116}
+  - component: {fileID: 534659117}
+  m_Layer: 0
+  m_Name: MetalParticleEffectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534659116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534659115}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 876975215}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534659117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534659115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541585586183d894fbc6623f999e4a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectPrefab: {fileID: 100002, guid: 4ea3951f9c0cc4f4aa09a1bde2b473f3, type: 3}
+  defaultSize: 10
 --- !u!1001 &548391170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4682,6 +5634,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -4932,6 +5894,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5008,6 +5975,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -5132,6 +6109,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Short
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381963800603582958, guid: 7ae07a5810ac06c4abcf7577a0b29bb2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381963800603582958, guid: 7ae07a5810ac06c4abcf7577a0b29bb2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5315,6 +6302,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5389,6 +6386,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5450,6 +6457,140 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 693387806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &696837883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696837884}
+  - component: {fileID: 696837886}
+  - component: {fileID: 696837885}
+  m_Layer: 5
+  m_Name: TimerText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &696837884
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696837883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1144662355}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &696837885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696837883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 42
+  m_fontSizeBase: 42
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &696837886
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696837883}
+  m_CullTransparentMesh: 1
 --- !u!1001 &697931828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5611,6 +6752,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5685,6 +6836,91 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf Variation 02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1151952502364127329, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151952502364127329, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669633949817011, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634036142340, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634162725336, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634162836753, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634288563724, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634345009301, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634576517401, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634642737550, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634720381971, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634793157542, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634843634189, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635077023458, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635227980844, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635545694207, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635800582286, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4154526033587974770, guid: d266b54b443b6744ca43afdc57ffe2ef,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5735,6 +6971,131 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5138983466742123776, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631840423675289, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631840607117360, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841331939375, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841508496507, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841791053823, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841880492740, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841955839088, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631842294994416, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631842324397970, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558556736952878949, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198739670177659, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198739886328470, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198739990988609, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740466663591, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740649928512, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740685232339, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740787710247, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740979428962, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741031140967, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741075108971, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741210690957, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741310165293, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741340647311, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741631396244, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5763,6 +7124,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548154041111978480, guid: c9d0698e9c0704f4aa90f3c9c3552ba6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5548154041111978480, guid: c9d0698e9c0704f4aa90f3c9c3552ba6,
         type: 3}
@@ -5873,6 +7239,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5946,6 +7322,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -6134,6 +7520,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -6944,6 +8340,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 873748902}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &876975214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 876975215}
+  m_Layer: 0
+  m_Name: Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &876975215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876975214}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1556357214}
+  - {fileID: 255357771}
+  - {fileID: 534659116}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &893683061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6956,6 +8386,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -7030,6 +8470,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -7594,10 +9044,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3016073145466326297, guid: eed394a6fac6e8d44899cbf7eb7b0b3a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299941264054414501, guid: eed394a6fac6e8d44899cbf7eb7b0b3a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3540314343305104150, guid: eed394a6fac6e8d44899cbf7eb7b0b3a,
         type: 3}
       propertyPath: m_Name
       value: Pallet Variation 09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540314343305104150, guid: eed394a6fac6e8d44899cbf7eb7b0b3a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540314343305104150, guid: eed394a6fac6e8d44899cbf7eb7b0b3a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876287539571347498, guid: eed394a6fac6e8d44899cbf7eb7b0b3a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7706,6 +9181,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -7938,6 +9423,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -8218,6 +9713,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8295,6 +9795,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8368,6 +9878,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -8611,6 +10131,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8685,6 +10215,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8746,6 +10286,111 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1142924945}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1144662351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1144662355}
+  - component: {fileID: 1144662354}
+  - component: {fileID: 1144662353}
+  - component: {fileID: 1144662352}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1144662352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144662351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1144662353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144662351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1144662354
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144662351}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1144662355
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144662351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 230179488}
+  - {fileID: 408776843}
+  - {fileID: 1709597348}
+  - {fileID: 696837884}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1146578834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8843,6 +10488,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8924,6 +10579,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9000,6 +10660,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -9243,6 +10913,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9400,6 +11080,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -9632,6 +11322,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -9941,6 +11641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682016308310267938, guid: 4b33abc95938ef746b32fc3b4ad95bf5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1682016308310267938, guid: 4b33abc95938ef746b32fc3b4ad95bf5,
         type: 3}
@@ -10335,6 +12040,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10408,6 +12123,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -10487,6 +12212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
         type: 3}
@@ -10661,6 +12391,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barrel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 439239393980121046, guid: ab5fdc46ceede7c4c834fdef8485ac49,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 439239393980121046, guid: ab5fdc46ceede7c4c834fdef8485ac49,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3477663187008753093, guid: ab5fdc46ceede7c4c834fdef8485ac49,
         type: 3}
@@ -10960,6 +12700,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11219,6 +12969,198 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1420665679}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1428751009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428751017}
+  - component: {fileID: 1428751016}
+  - component: {fileID: 1428751015}
+  - component: {fileID: 1428751014}
+  - component: {fileID: 1428751013}
+  - component: {fileID: 1428751012}
+  - component: {fileID: 1428751011}
+  - component: {fileID: 1428751010}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1428751010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5615a48fdf0583478aaf35dbfd22fc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  _currentHealth: 10
+--- !u!114 &1428751011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660562a7a691d0e488d755e7b106ca2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1940101304}
+  bulletMarkPool: {fileID: 1556357215}
+  metalParticleEffectPool: {fileID: 534659117}
+  cycle: 0.2
+  damage: 1
+  reloadingDelay: 3
+  reloadText: {fileID: 1709597349}
+  maxBullets: 40
+  bulletBox: {fileID: 408776844}
+--- !u!114 &1428751012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db243f0d1d902044ba0d826cff04674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1940101304}
+  checkGround: {fileID: 351699065}
+  mouseSensitivity: 400
+  speed: 3
+  jumpScale: 5
+--- !u!54 &1428751013
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 1
+--- !u!136 &1428751014
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  m_Material: {fileID: 13400000, guid: bf545c7ed41cd314e979ff06b5d55121, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1428751015
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1428751016
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1428751017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428751009}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.06, y: 2, z: -3.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1940101304}
+  - {fileID: 351699068}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1462925969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11231,6 +13173,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -11310,6 +13262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -11394,6 +13351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
         type: 3}
@@ -11795,6 +13757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1682016308310267938, guid: 4b33abc95938ef746b32fc3b4ad95bf5,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682016308310267938, guid: 4b33abc95938ef746b32fc3b4ad95bf5,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12035,6 +14002,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12112,6 +14084,91 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf Variation 02
       objectReference: {fileID: 0}
+    - target: {fileID: 1151952502364127329, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151952502364127329, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669633949817011, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634036142340, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634162725336, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634162836753, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634288563724, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634345009301, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634576517401, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634642737550, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634720381971, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634793157542, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669634843634189, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635077023458, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635227980844, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635545694207, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149669635800582286, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4154526033587974770, guid: d266b54b443b6744ca43afdc57ffe2ef,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12161,6 +14218,131 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138983466742123776, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631840423675289, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631840607117360, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841331939375, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841508496507, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841791053823, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841880492740, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631841955839088, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631842294994416, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256631842324397970, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558556736952878949, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198739670177659, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198739886328470, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198739990988609, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740466663591, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740649928512, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740685232339, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740787710247, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198740979428962, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741031140967, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741075108971, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741210690957, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741310165293, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741340647311, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699198741631396244, guid: d266b54b443b6744ca43afdc57ffe2ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12260,6 +14442,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12321,6 +14513,53 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1538755696}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1556357213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1556357214}
+  - component: {fileID: 1556357215}
+  m_Layer: 0
+  m_Name: BulletMarkPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1556357214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556357213}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 876975215}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1556357215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556357213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541585586183d894fbc6623f999e4a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectPrefab: {fileID: 8595560574942971790, guid: fae1980df9e9eb645acdced5b18203fb,
+    type: 3}
+  defaultSize: 10
 --- !u!1001 &1556922748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12492,6 +14731,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Long Rails (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3396001746467026945, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12639,6 +14888,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Long Rails (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3396001746467026945, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
         type: 3}
@@ -12798,6 +15057,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12956,6 +15225,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Long Rails (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3396001746467026945, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13017,6 +15296,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1653195188}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1667875565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667875567}
+  - component: {fileID: 1667875566}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1667875566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667875565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70eab875c48bdb24881f12f404b01e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 696837885}
+--- !u!4 &1667875567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667875565}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1671554389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13282,6 +15606,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13343,6 +15677,140 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1707104416}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1709597347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709597348}
+  - component: {fileID: 1709597350}
+  - component: {fileID: 1709597349}
+  m_Layer: 5
+  m_Name: ReloadText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1709597348
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709597347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1144662355}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 200}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1709597349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709597347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1709597350
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709597347}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1714746971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13470,6 +15938,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Rails Short (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13548,6 +16026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
         type: 3}
@@ -13719,6 +16202,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910352700272845603, guid: 96b0574639ae63d42ace7a728e9f2c1e,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -13796,6 +16284,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Pillar Rails (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13870,6 +16368,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Catwalk Long Rails (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835881230559808018, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3396001746467026945, guid: c8c2ba691eba67346aa9d9fbf95cfb98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13943,6 +16451,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -14163,6 +16681,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1839723209}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1862767885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1862767888}
+  - component: {fileID: 1862767887}
+  - component: {fileID: 1862767886}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1862767886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862767885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1862767887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862767885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1862767888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862767885}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1864676990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14175,6 +16761,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -14249,6 +16845,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Pillar Rails (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819337804145458440, guid: af6c48ef18808b84e9b6f5e6ebabd603,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7392985611642179355, guid: af6c48ef18808b84e9b6f5e6ebabd603,
         type: 3}
@@ -15107,6 +17713,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3773941223442343427, guid: 5cd9b805f82b29345964a6dfaf9f73f2,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773941223442343427, guid: 5cd9b805f82b29345964a6dfaf9f73f2,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -15121,6 +17732,143 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1935850280}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1940101303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940101304}
+  - component: {fileID: 1940101307}
+  - component: {fileID: 1940101306}
+  - component: {fileID: 1940101305}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1940101304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940101303}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1428751017}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1940101305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940101303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &1940101306
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940101303}
+  m_Enabled: 1
+--- !u!20 &1940101307
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940101303}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1001 &1956504216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15133,6 +17881,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -15207,6 +17965,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -15416,6 +18184,181 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf Variation 04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3004502650624292625, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3004502650624292625, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527142363754, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527151924381, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527471196723, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172527567063299, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528070061974, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528109166978, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528194879236, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528535292906, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528701457979, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295172528808827809, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998589083004074608, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982456811147050, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982457277430747, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982457283506324, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982457643531709, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982458050630390, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982458126375351, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113982458799167663, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902283229125, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902494933279, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902544576824, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150902635695863, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150903892253505, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777150904050515407, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932551987482, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932639084515, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932657375667, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527932766607019, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527933058443303, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527933452262136, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527933907072280, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842527934223366675, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9028029597386878997, guid: a3d536f4bac80fd4dad7d3e69f1d0f22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15551,6 +18494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6778069794998177060, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
         type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778069794998177060, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -15623,10 +18571,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 245423477}
     m_Modifications:
+    - target: {fileID: 1987996098089819764, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016890299694482539, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4764849679883809638, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6778069794998177060, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
         type: 3}
       propertyPath: m_Name
       value: Catwalk Stairs (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778069794998177060, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778069794998177060, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7515332717815086903, guid: 90c9b8508ac3f7a4b8ee53577ab82fc4,
         type: 3}
@@ -15747,10 +18720,270 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 722873571973194637, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873571993297552, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873572307368933, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873572583150015, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573151437363, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573313503200, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573344202055, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573366813070, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573393579768, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573547791766, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573578951907, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573630516815, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573814187609, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573823815129, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 722873573845709933, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3922192954965300429, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
         type: 3}
       propertyPath: m_Name
       value: Shelf Variation 03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922192954965300429, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922192954965300429, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282423925009190, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424021654383, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424243150141, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424320263902, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424383859365, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424551850869, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282424998247398, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282425144674647, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686282425391772183, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214351676509434835, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214351677054700765, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214351677569564546, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899068314696, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899139889411, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899226342931, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899245825362, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899255329089, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899463836099, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899725695904, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899825803997, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827899978321940, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900087890346, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900235944206, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900297101390, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900390837490, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900452321291, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900530773178, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900746563497, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900856866038, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827900986067610, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827901011917649, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827901132947762, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414827901145756307, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103953002949776329, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134343725142727084, guid: c8b3abac3cf61c543ba3bdbd693e9f6c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15859,6 +19092,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Catwalk Rails Short (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900391360115841127, guid: a4518124dcecd95438a3a6a8315949d0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8240169095854549620, guid: a4518124dcecd95438a3a6a8315949d0,
         type: 3}
@@ -16399,6 +19642,11 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 142205444}
+  - {fileID: 1428751017}
   - {fileID: 949680264}
   - {fileID: 100959394}
+  - {fileID: 1667875567}
+  - {fileID: 1144662355}
+  - {fileID: 876975215}
+  - {fileID: 1862767888}
+  - {fileID: 297809614}
