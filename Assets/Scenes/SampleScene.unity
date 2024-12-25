@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 675102568}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,8 +1163,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 330585546}
   bulletMarkPool: {fileID: 121100940}
+  metalParticleEffectPool: {fileID: 841587364}
   cycle: 0.2
   damage: 1
+  reloadingDelay: 3
+  reloadText: {fileID: 704190462}
+  maxBullets: 40
+  bulletBox: {fileID: 997530035}
 --- !u!114 &675102568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1370,6 +1375,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 826367386524020383, guid: abc6d27482676fd40a90fad518a4482a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 826367386524020383, guid: abc6d27482676fd40a90fad518a4482a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4534974647712120826, guid: abc6d27482676fd40a90fad518a4482a,
         type: 3}
       propertyPath: m_Name
@@ -1378,12 +1393,12 @@ PrefabInstance:
     - target: {fileID: 4534974647712120826, guid: abc6d27482676fd40a90fad518a4482a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5347579988482820809, guid: abc6d27482676fd40a90fad518a4482a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.392241
+      value: -2.19
       objectReference: {fileID: 0}
     - target: {fileID: 5347579988482820809, guid: abc6d27482676fd40a90fad518a4482a,
         type: 3}
@@ -1393,7 +1408,7 @@ PrefabInstance:
     - target: {fileID: 5347579988482820809, guid: abc6d27482676fd40a90fad518a4482a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.015245
+      value: -0.29
       objectReference: {fileID: 0}
     - target: {fileID: 5347579988482820809, guid: abc6d27482676fd40a90fad518a4482a,
         type: 3}
@@ -1430,6 +1445,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9027272407616689748, guid: abc6d27482676fd40a90fad518a4482a,
+        type: 3}
+      propertyPath: _playerTransform
+      value: 
+      objectReference: {fileID: 675102565}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1998,7 +2018,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1612091700
 MonoBehaviour:
   m_ObjectHideFlags: 0
