@@ -100,7 +100,7 @@ public class Shoot : MonoBehaviour
             bullets--;
 
             RaycastHit raycastHit;
-            bool isHit = Physics.Raycast(ray, out raycastHit, 1000, (Enemy | Wall));
+            bool isHit = Physics.Raycast(ray, out raycastHit, 1000, (Enemy | Wall | Start | Exit));
 
             playerController.SetRecoil(new Vector2(Random.Range(-0.3f,0.3f), -0.3f));
 
