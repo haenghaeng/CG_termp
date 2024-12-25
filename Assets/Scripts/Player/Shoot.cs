@@ -32,7 +32,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private int damage = 1;
 
     private PlayerController playerController;
-    private Animator animator;
+    [SerializeField] private Animator animator;
 
     private WaitForSeconds cycleWFS;
     private bool isKeyDown = false;
@@ -43,19 +43,19 @@ public class Shoot : MonoBehaviour
     private LayerMask Exit;
     private LayerMask Restart;
 
-    private bool reloading = false;
-    [SerializeField] private float reloadingDelay = 3.0f;
-    [SerializeField] private TextMeshProUGUI reloadText;
+    public bool reloading = false;
 
-    private int bullets;
-    [SerializeField] private int maxBullets = 40;
+    [SerializeField] private float reloadingDelay = 3.0f;
+    public TextMeshProUGUI reloadText;
+
+    public int bullets;
+    public int maxBullets = 40;
     [SerializeField] private TextMeshProUGUI bulletBox;
 
 
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
-        animator = GetComponent<Animator>();
 
         cycleWFS = new WaitForSeconds(cycle);
         Enemy = LayerMask.GetMask("Enemy");
@@ -155,32 +155,12 @@ public class Shoot : MonoBehaviour
         if (bullets <= 0)
         {
             ReloadStart();
-            //StartCoroutine (Reload());
         }
 
         isShooting = false;
 
         yield return null;
     }
-
-    //private IEnumerator Reload()
-    //{
-    //    if (!reloading)
-    //    {
-    //        reloading = true;
-    //        reloadText.text = "Reloading";
-
-    //        // 애니메이션 재생 시작
-
-    //        yield return new WaitForSeconds(reloadingDelay);
-
-    //        // 애니메이션 재생 종료
-
-    //        bullets = maxBullets;
-    //        reloadText.text = "";
-    //        reloading = false;
-    //    }
-    //}
 
     private void ReloadStart()
     {
@@ -192,13 +172,6 @@ public class Shoot : MonoBehaviour
             // 애니메이션 재생 시작
             animator.SetTrigger("Reload");
         }
-    }
-
-    public void ReloadEnd()
-    {
-        bullets = maxBullets;
-        reloadText.text = "";
-        reloading = false;
     }
 
     private void ShowBulletBox()

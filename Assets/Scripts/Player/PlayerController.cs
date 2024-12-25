@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 playerCurrentSpeed = Vector3.zero;
 
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -60,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         mouseY = Mathf.Clamp(mouseY, -90f, 90f);
 
-        playerCamera.localRotation = Quaternion.Euler(mouseY, mouseX, 0);
+        playerCamera.localRotation = Quaternion.Euler(mouseY, 0, 0);
         transform.localRotation = Quaternion.Euler(0, mouseX, 0);
     }
 
