@@ -89,12 +89,12 @@ public class Shoot : MonoBehaviour
         {
             Ray ray = new Ray();
             ray.origin = transform.position;
-            ray.direction = playerCamera.forward;
+            ray.direction = playerCamera.forward;            
 
             bullets--;
 
             RaycastHit raycastHit;
-            bool isHit = Physics.Raycast(ray, out raycastHit);
+            bool isHit = Physics.Raycast(ray, out raycastHit, 1000, (Enemy | Wall));
 
             playerController.SetRecoil(new Vector2(Random.Range(-0.3f,0.3f), -0.3f));
 
@@ -112,7 +112,7 @@ public class Shoot : MonoBehaviour
 
             // 적에게 맞았을 때
             else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Enemy)
-            {
+            {                
                 // 적에게 damage만큼의 피해를 줌
                 EnemyHealth enemyHealth;
                 raycastHit.collider.TryGetComponent(out enemyHealth);
