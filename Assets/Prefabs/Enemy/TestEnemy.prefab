@@ -818,6 +818,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: {fileID: 4877873784554329763}
+  poolableObject: {fileID: 6252294657522965446}
+  Enemy: {fileID: 4534974647712120826}
 --- !u!1 &3985493697742365634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,6 +1259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   currentHealth: 10
+  animator: {fileID: 913803291910353011}
 --- !u!114 &9027272407616689748
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ using UnityEngine;
 public class AnimationEvent : MonoBehaviour
 {
     [SerializeField] private GameObject attackRange;
+    [SerializeField] private PoolableObject poolableObject;
+    [SerializeField] private GameObject Enemy;
 
     /// <summary>
     /// Enemy의 Punch 애니메이션에서 호출되는 함수입니다.
@@ -25,5 +27,14 @@ public class AnimationEvent : MonoBehaviour
     public void DeactivateAttackRange()
     { 
         attackRange.SetActive(false);
+    }    
+
+    /// <summary>
+    /// Enemy의 Death 애니메이션에서 호출되는 함수입니다.
+    /// 재생이 끝나면 Pool로 돌아갑니다.
+    /// </summary>
+    public void BackToPool()
+    {
+        poolableObject.ObjectPool.BackToPool(Enemy);
     }
 }
