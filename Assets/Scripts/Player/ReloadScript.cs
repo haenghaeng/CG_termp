@@ -13,4 +13,9 @@ public class ReloadScript : MonoBehaviour
         shoot.reloadText.text = "";
         shoot.reloading = false;
     }
+
+    public void ReloadSound()
+    {
+        shoot.audioSource.PlayOneShot(shoot.reload);
+    }
 }

@@ -53,6 +53,12 @@ public class Shoot : MonoBehaviour
     [SerializeField] private TextMeshProUGUI bulletBox;
 
 
+
+    [SerializeField] private AudioClip shoot;
+    public AudioClip reload;
+    public AudioSource audioSource;
+
+
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
@@ -109,6 +115,8 @@ public class Shoot : MonoBehaviour
             bool isHit = Physics.Raycast(ray, out raycastHit, 1000, (Enemy | Wall | Start | Exit | Restart));
 
             playerController.SetRecoil(new Vector2(Random.Range(-0.3f,0.3f), -0.3f));
+
+            audioSource.PlayOneShot(shoot);
 
             // 벽에 맞았을 때
             if (isHit && (1 << raycastHit.collider.gameObject.layer) == Wall)
