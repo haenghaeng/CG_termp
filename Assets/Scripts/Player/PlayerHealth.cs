@@ -15,6 +15,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int _currentHealth;
     [SerializeField] private Slider healthSlider;
 
+    [SerializeField] private GameManager gameManager;
+
     private void Update()
     {
         healthSlider.maxValue = maxHealth;
@@ -35,8 +37,8 @@ public class PlayerHealth : MonoBehaviour
                 _currentHealth = 0;
                 // 게임 오버. 게임 오버시 실행할 이벤트나 함수를 아래에 넣어주세요
                 Debug.Log("게임 오버");
-                GameObject.Find("Timer").GetComponent<Timer>().StopTimer();
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+                gameManager.GameOver();                
             }
             else
             {
