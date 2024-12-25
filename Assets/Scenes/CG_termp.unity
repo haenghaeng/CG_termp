@@ -16510,7 +16510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f2cc92861946e4c9dc7543d09ef6db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnTimer: 3
+  spawnTimer: 1
   playerTransform: {fileID: 4000012926550904}
   enemyPool: {fileID: 255357772}
 --- !u!4 &1470214956
@@ -16522,7 +16522,7 @@ Transform:
   m_GameObject: {fileID: 1470214954}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.03, y: 1.55, z: -26.57}
+  m_LocalPosition: {x: 15, y: 2, z: -39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
