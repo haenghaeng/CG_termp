@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// 플레이어가 바라보는 방향으로 총을 발사합니다.
 /// </summary>
 public class Shoot : MonoBehaviour
 {
+    [SerializeField] private GameManager gameManager;
+
     [Header("Components")]
 
     [Tooltip("플레이어 오브젝트와 같이 붙어있는 카메라의 transform")]
@@ -37,6 +41,7 @@ public class Shoot : MonoBehaviour
     private LayerMask Wall;
     private LayerMask Start;
     private LayerMask Exit;
+    private LayerMask Restart;
 
     private bool reloading = false;
     [SerializeField] private float reloadingDelay = 3.0f;
@@ -57,6 +62,7 @@ public class Shoot : MonoBehaviour
         Wall = LayerMask.GetMask("Wall");
         Start = LayerMask.GetMask("Start");
         Exit = LayerMask.GetMask("Exit");
+        Restart = LayerMask.GetMask("Restart");
         bullets = maxBullets;
     }
 
@@ -100,7 +106,7 @@ public class Shoot : MonoBehaviour
             bullets--;
 
             RaycastHit raycastHit;
-            bool isHit = Physics.Raycast(ray, out raycastHit, 1000, (Enemy | Wall | Start | Exit));
+            bool isHit = Physics.Raycast(ray, out raycastHit, 1000, (Enemy | Wall | Start | Exit | Restart));
 
             playerController.SetRecoil(new Vector2(Random.Range(-0.3f,0.3f), -0.3f));
 
@@ -128,8 +134,7 @@ public class Shoot : MonoBehaviour
             else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Start)
             {
                 Debug.Log("Start");
-                GameObject.Find("Menu").SetActive(false);
-                GameObject.Find("Timer").GetComponent<Timer>().StartTimer();
+                gameManager.StartGame();
             }
 
             else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Exit)
@@ -138,7 +143,13 @@ public class Shoot : MonoBehaviour
                 Application.Quit();
             }
 
-                yield return cycleWFS;
+            else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Restart)
+            {
+                Debug.Log("Restart");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+
+            yield return cycleWFS;
         }
 
         if (bullets <= 0)

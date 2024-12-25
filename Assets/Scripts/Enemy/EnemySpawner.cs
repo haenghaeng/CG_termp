@@ -16,25 +16,45 @@ public class EnemySpawner : MonoBehaviour
     
     private WaitForSeconds wfs;
 
+    private bool isSpawn = false;
+    private bool isCoroutine = false;
+
     private void Awake()
     {
         wfs = new WaitForSeconds(spawnTimer);
-        StartCoroutine(SpawnCoroutine());
     }
 
     private IEnumerator SpawnCoroutine()
     {
-        while (true)
+        while (isSpawn)
         {
             yield return wfs;
             SpawnEnemy();
         }
+        isCoroutine = false;
     }
 
-    public void SpawnEnemy()
+    /// <summary>
+    /// 현재 위치에 Pool에 있는 enemy를 가져옵니다.
+    /// </summary>
+    private void SpawnEnemy()
     {
         GameObject enemy = enemyPool.GetFromPool();
         enemy.GetComponent<EnemyAgent>().setPlayer(playerTransform);
         enemy.transform.position = transform.position;
+    }   
+    
+    /// <summary>
+    /// 논리값에 따라 enemy를 소환시작하거나, 종료합니다.
+    /// </summary>
+    /// <param name="bb"></param>
+    public void SetIsSpawn(bool bb)
+    {
+        isSpawn = bb;
+        if (bb)
+        {
+            isCoroutine = true;
+            StartCoroutine(SpawnCoroutine());
+        }
     }
 }
