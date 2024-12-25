@@ -1272,7 +1272,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1894969626d2f545bfcbc107dd11aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  navMeshAgent: {fileID: 826367386524020383}
   _playerTransform: {fileID: 0}
+  animator: {fileID: 913803291910353011}
 --- !u!1 &4574995249369994704
 GameObject:
   m_ObjectHideFlags: 0

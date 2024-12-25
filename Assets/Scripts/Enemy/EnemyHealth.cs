@@ -13,6 +13,8 @@ public class EnemyHealth : MonoBehaviour
 
     [SerializeField] private Animator animator;
 
+    private EnemyAgent enemyAgent;
+
     private int CurrentHealth
     {
         set
@@ -22,6 +24,9 @@ public class EnemyHealth : MonoBehaviour
                 currentHealth = value;
                 if (currentHealth <= 0)
                 {
+                    // 추적 종료
+                    enemyAgent.ChangeChase(false);
+
                     // 현재 체력이 0이하가 되면 Death 애니메이션 재생
                     animator.SetTrigger("Death");
                 }
@@ -37,11 +42,15 @@ public class EnemyHealth : MonoBehaviour
     private void Awake()
     {
         currentHealth = maxHealth;
+        enemyAgent = GetComponent<EnemyAgent>();
     }
 
     private void OnEnable()
     {
         currentHealth = maxHealth;
+
+        // 추적 시작. 이걸 왜 EnemyHealth에서 하는 거야 으악
+        enemyAgent.ChangeChase(true);
     }
 
     public void HealthDown(int damage)
