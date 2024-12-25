@@ -9,13 +9,10 @@ using UnityEngine.AI;
 /// </summary>
 public class EnemyAgent : MonoBehaviour
 {
-    private NavMeshAgent navMeshAgent;
+    [SerializeField] private NavMeshAgent navMeshAgent;
     [SerializeField] private Transform _playerTransform = null;
 
-    private void Awake()
-    {
-        navMeshAgent = GetComponent<NavMeshAgent>();
-    }
+    [SerializeField] private Animator animator;
 
     private void Update()
     {
@@ -26,5 +23,15 @@ public class EnemyAgent : MonoBehaviour
     {
         if(_playerTransform == null)
             _playerTransform = playerTransform;
+    }
+
+    /// <summary>
+    /// 논리값에 따라 Agent가 목표를 추격하거나, 추격하지 않습니다.
+    /// </summary>
+    /// <param name="Chase"></param>
+    public void ChangeChase(bool Chase)
+    {
+        navMeshAgent.isStopped = !Chase;
+        animator.SetBool("ChasePlayer" , Chase);
     }
 }

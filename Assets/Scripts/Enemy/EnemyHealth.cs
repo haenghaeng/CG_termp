@@ -11,18 +11,26 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int maxHealth = 10;
     [SerializeField] private int currentHealth;
 
-    private PoolableObject poolableObject;
+    [SerializeField] private Animator animator;
+
+    private EnemyAgent enemyAgent;
 
     private int CurrentHealth
     {
         set
         {
-            currentHealth = value;
-            if(currentHealth <= 0)
+            if(currentHealth > 0)
             {
-                // 현재 체력이 0이하가 되면 Pool로 돌아감
-                poolableObject.ObjectPool.BackToPool(gameObject);
-            }
+                currentHealth = value;
+                if (currentHealth <= 0)
+                {
+                    // 추적 종료
+                    enemyAgent.ChangeChase(false);
+
+                    // 현재 체력이 0이하가 되면 Death 애니메이션 재생
+                    animator.SetTrigger("Death");
+                }
+            }            
         }
         get
         {
@@ -34,17 +42,19 @@ public class EnemyHealth : MonoBehaviour
     private void Awake()
     {
         currentHealth = maxHealth;
-        poolableObject = GetComponent<PoolableObject>();
+        enemyAgent = GetComponent<EnemyAgent>();
     }
 
     private void OnEnable()
     {
-        CurrentHealth = maxHealth;
-    }
+        currentHealth = maxHealth;
 
+        // 추적 시작. 이걸 왜 EnemyHealth에서 하는 거야 으악
+        enemyAgent.ChangeChase(true);
+    }
 
     public void HealthDown(int damage)
     {
         CurrentHealth -= damage;
-    }   
+    }
 }
