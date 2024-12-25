@@ -23,6 +23,8 @@ public class Shoot : MonoBehaviour
     [Tooltip("금속 파편 이펙트 Pool")]
     [SerializeField] private MyObjectPool metalParticleEffectPool;
 
+    [SerializeField] private MyObjectPool bloodpool; // 피 효과 pool
+
     [Header("Variables")]
 
     [Tooltip("연사속도 = 발사 후 다시 발사할 때까지 걸리는 시간(기본값 = 0.2초)")]
@@ -58,6 +60,9 @@ public class Shoot : MonoBehaviour
     public AudioClip reload;
     public AudioSource audioSource;
 
+    [SerializeField] private GameObject shootps; // 총 불꽃 효과
+
+
 
     private void Awake()
     {
@@ -86,10 +91,12 @@ public class Shoot : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             isKeyDown = false;
+            shootps.SetActive(false);
         }
 
         if (Input.GetKeyDown(KeyCode.R) && bullets < maxBullets )
         {
+            shootps.SetActive(false);
             ReloadStart();
         }
 
@@ -118,6 +125,8 @@ public class Shoot : MonoBehaviour
 
             audioSource.PlayOneShot(shoot);
 
+            shootps.SetActive(true);
+
             // 벽에 맞았을 때
             if (isHit && (1 << raycastHit.collider.gameObject.layer) == Wall)
             {
@@ -137,6 +146,11 @@ public class Shoot : MonoBehaviour
                 EnemyHealth enemyHealth;
                 raycastHit.collider.TryGetComponent(out enemyHealth);
                 enemyHealth.HealthDown(damage);
+
+                // 피 효과 생성
+                GameObject obj = bloodpool.GetFromPool();
+                obj.transform.position = raycastHit.point + (raycastHit.normal * 0.01f);
+                obj.transform.rotation = Quaternion.FromToRotation(Vector3.up, raycastHit.normal);
             }
 
             else if (isHit && (1 << raycastHit.collider.gameObject.layer) == Start)
